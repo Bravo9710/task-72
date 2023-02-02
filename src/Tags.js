@@ -8,7 +8,7 @@ function Tags({
 	return (
 		<div className="tags">
 			{tags.map(function (tag) {
-				return <p key={tag}>#{tag}</p>
+				return <p key={tag} className="tag">#{tag}</p>
 			})}
 		</div>
 	)
